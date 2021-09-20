@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   width: 1550px;
   height: fit-content;
   background: #ffffff;
-  border: 1px solid red;
+  padding-bottom: 100px;
 `;
 
 export const Left = styled.div``;
@@ -76,12 +76,12 @@ export const Pre = styled.div`
     color: #156963;
     font-size: 32px;
     margin: 0px;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 
     text-align: center;
   }
   img {
-    margin: 20px 120px 0px 130px;
+    margin: 40px 120px 0px 130px;
   }
 `;
 
@@ -95,10 +95,10 @@ export const Next = styled.div`
     color: white;
     font-size: 32px;
     margin: 0px;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     text-align: center;
   }
   img {
-    margin: 20px 120px 0px 130px;
+    margin: 40px 120px 0px 130px;
   }
 `;
